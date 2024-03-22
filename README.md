@@ -10,4 +10,4 @@
 
 4.在日誌訊息中使用了std::chrono來記錄時間，使用this_thread::get_id獲取線程ID。
 
-在這個專案中學習了單例模式的應用，Logwrite將日誌訊息放進隊列Logwork從隊列中獲取日誌訊息並處理使用了生產者-消費者模式，在Log類別中使用互斥鎖std::mutex來保護線程的安全，以及條件變數condition_variable來通知線程。
+在這個專案中學習了單例模式的應用，Logwrite將日誌訊息放進隊列Logwork從隊列中獲取日誌訊息並處理，使用了生產者-消費者模式。在Log類別中使用互斥鎖std::mutex來保護線程的安全，以及條件變數condition_variable來通知線程。透過這個專案更加了解了日誌的運作方式，以及執行緒相關的知識概念和應用場景。
